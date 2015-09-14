@@ -489,11 +489,13 @@ html, body {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     background: $aside-notice-bg;
+    border: 1px solid #51c4cc;
     line-height: 1.6;
 
     &.warning {
       background-color: $aside-warning-bg;
       @include text-shadow(0 1px 0 lighten($aside-warning-bg, 15%));
+      border-color: #ffd11a;
     }
 
     &.success {
