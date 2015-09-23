@@ -1,5 +1,8 @@
 # Static Lists
 
+[notice: lol dis is cool.]
+[warning: this is not!!!]
+
 With the *Static List* API endpoint, you can easily target and manage lists of devices that are
 defined in your systems outside of Urban Airship. Any list or grouping of devices for which the
 canonical source of data about the members is *elsewhere* is a good candidate for Static Lists,
@@ -225,8 +228,6 @@ Content-Type: application/json
 Update the metadata of a static list. The body of the request will contain a [list
 object](#the-list-object), though the ``name`` attribute could be omitted. If present, it must
 match the ``name`` provided in the URL.
-
-[note: lol check this out]
 
 <aside class="notice">
 If you are trying to update the list contents, please see the <a href="#upload-list">list

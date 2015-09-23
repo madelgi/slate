@@ -14,15 +14,6 @@ module RedcarpetMods
       end
     end
   end
-
-#  def postprocess(raw_html)
-#    if (md = raw_html.match(/\[note:(.*)\]/m))
-#      content = md.captures
-#      "<aside class=\"notice\">#{content}</aside>"
-#    else
-#      raw_html
-#    end
-#  end
 end
 
 Middleman::Renderers::MiddlemanRedcarpetHTML.send :include, RedcarpetMods
