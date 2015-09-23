@@ -226,10 +226,12 @@ Update the metadata of a static list. The body of the request will contain a [li
 object](#the-list-object), though the ``name`` attribute could be omitted. If present, it must
 match the ``name`` provided in the URL.
 
+[note: lol check this out]
+
 <aside class="notice">
 If you are trying to update the list contents, please see the <a href="#upload-list">list
 upload</a> endpoint. The ``update`` endpoint is used to update a list's metadata rather than
-the actual list of device identifiers.
+the actual list of device identifiers. [Oh, and google!](www.google.com).
 </aside>
 
 

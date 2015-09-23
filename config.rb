@@ -1,3 +1,5 @@
+require './lib/render_recursive'
+
 # Markdown
 set :markdown_engine, :redcarpet
 set :markdown,
