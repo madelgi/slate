@@ -9,6 +9,39 @@ Slate helps you create beautiful API documentation. Think of it as an intelligen
 
 *The example above was created with Slate. Check it out at [tripit.github.io/slate](http://tripit.github.io/slate).*
 
+UA Slate
+--------
+
+Welcome to UA's API documentation, powered by Slate.
+
+### Getting started
+
+To get a local build up and running, install `Node.js` and enter the following in
+the root folder:
+
+```shell
+EXECJS_RUNTIME=Node bundle exec middleman
+```
+
+Note that you can also use `bundle exec middleman server` to get a local build without installing Node.
+However, middleman sometimes functions incorrectly when using this method. See
+[this discussion](https://github.com/middleman/middleman/issues/1367) for details.
+
+
+### Syntax extensions
+
+Rather than using raw html for admonitions, e.g.
+
+```html
+<aside class="notice">Hey check out this notice.</asid>
+```
+
+you can use bracket notation:
+
+```markdown
+[notice: Hey check out this notice.]
+```
+
 Features
 ------------
 
