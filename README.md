@@ -33,7 +33,7 @@ However, middleman sometimes functions incorrectly when using this method. See
 Rather than using raw html for admonitions, e.g.
 
 ```html
-<aside class="notice">Hey check out this notice.</asid>
+<aside class="notice">Hey check out this notice.</aside>
 ```
 
 you can use bracket notation:
